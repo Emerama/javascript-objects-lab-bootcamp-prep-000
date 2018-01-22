@@ -11,5 +11,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 function deleteFromObjectByKey(object, key) {
   const newObj = Object.assis({}, object)
-  delete
+  delete newObj[key]
+  return 
 }
